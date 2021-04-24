@@ -1,0 +1,58 @@
+html {
+    background-image: url("../img/background.jpeg");
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    margin: 20px;
+}
+
+input {
+   width: 20em;
+}
+
+form {
+    display: inline-grid;
+}
+
+input [type='submit'] {
+    width:auto;
+    text-align: center;
+    height: auto;
+    background-color: rgba(182, 65, 186, 0.7);
+}
+
+button {
+    margin-left: 20px;
+    background-color: rgba(94, 25, 55, 0.7);
+    border: none;
+    padding: 7px;
+    color: white;
+
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+hr {
+    background-color: rgb(40, 5, 63);
+    width: 40em;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#eventlist {
+    background-color: rgba(94, 25, 55, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+    text-align:center;
+    width: auto;
+}
