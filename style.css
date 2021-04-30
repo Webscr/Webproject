@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+html {
+    background-image: url("../img/background.jpeg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background-color: transparent;
+    color: white;
+    font-size: 0.7em;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input {
+   width: 20em;
+   margin-bottom: 20px;
+}
+
+form {
+    display: inline-grid;
+    list-style-type: none;
+}
+
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+hr {
+    background-color: rgb(40, 5, 63);
+    width: 40em;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#mainpart {
+    background-color: rgba(94, 25, 55, 0.5);
+    padding: 40px;
+    text-align:center;
+    width: 70em;
+    border-color:black;
+    margin:auto;
+}
+
+#form5 {
+    margin-right:auto;
+    text-align:center;
+    display:list-item;
+}
+
+#5 {
+color: rgba(94, 25, 55, 0.5);
+}
+
+.border-step2 {
+    border-style: solid;
+    border-width: .125em 0;
+    margin: 1em 1em;
+    padding: .5em .375em;
+    position: relative;
+    z-index: 1;
+}
+
+.border-step2::before {
+    background-color: inherit;
+    border: inherit;
+    border-width: 0 .2em;
+    bottom: .125em;
+    content: '';
+    left: -.25em;
+    pointer-events: none;
+    position: absolute;
+    top: .125em;
+    right: -.25em;
+    z-index: -1;
+}
+
+.border-step2::after {
+    border: inherit;
+    border-width: 0 .125em;
+    bottom: 0;
+    content: '';
+    left: -.125em;
+    position: absolute;
+    top: 0;
+    right: -.125em;
+    z-index: -2;
+}
+
+button, input[type='submit'] {
+    background-color: rgba(94, 25, 55, 0.7);
+    border-color: black;
+    padding: 7px;
+    color: white;
+}
+
+input {
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+
+input::placeholder, input[type='date']::placeholder {
+    color: rgba(255, 255, 255, 0.5)
+}
+
